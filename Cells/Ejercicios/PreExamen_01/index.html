@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Maquina de alimentos</title>
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="contenedor-secundario">
+            <span class="datos-principales">Nombre:</span>
+            <input type="text" id="nombre">
+            <span class="datos-principales">Seleccione el Producto:</span>
+            <select id="miSelect">
+                <option value=""> Seleccione</option>
+                <option value="A">A $270</option>
+                <option value="B">B $340</option>
+                <option value="C">C $390</option>
+            </select>
+
+            <span class="datos-principales">Ingrese Monedas:</span>
+            <select id="monedas">
+                <option value=""> Seleccione</option>
+                <option value="10">$10</option>
+                <option value="50">$50</option>
+                <option value="100">$100</option>
+            </select>
+        </div>
+        <div class="botones">
+            <button id="ingresar">Ingresar</button>
+            <button id="salir">Salir</button>
+        </div>
+        <div class="datos">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
